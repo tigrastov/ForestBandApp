@@ -1,0 +1,575 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A1A69EC2C1059490071FFE8 /* SelectKeyForGuitar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69EB2C1059490071FFE8 /* SelectKeyForGuitar.swift */; };
+		9A1A69EF2C105C4A0071FFE8 /* GEmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69EE2C105C4A0071FFE8 /* GEmView.swift */; };
+		9A1A69F12C105C5C0071FFE8 /* DHmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F02C105C5C0071FFE8 /* DHmView.swift */; };
+		9A1A69F32C105C6D0071FFE8 /* FDmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F22C105C6D0071FFE8 /* FDmView.swift */; };
+		9A1A69F52C10603D0071FFE8 /* CAmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F42C10603D0071FFE8 /* CAmGuitarViewModel.swift */; };
+		9A1A69F82C1060BD0071FFE8 /* GEmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F72C1060BD0071FFE8 /* GEmGuitarViewModel.swift */; };
+		9A1A69FA2C1061080071FFE8 /* DHmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F92C1061080071FFE8 /* DHmGuitarViewModel.swift */; };
+		9A1A69FC2C1061580071FFE8 /* FDmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69FB2C1061580071FFE8 /* FDmGuitarViewModel.swift */; };
+		9A225F062C1A621A0015A065 /* DrumsTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A225F052C1A621A0015A065 /* DrumsTrueView.swift */; };
+		9A31F5E12C2D52E0008EC3ED /* Eb(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D52C2D52DF008EC3ED /* Eb(bass).mp3 */; };
+		9A31F5E22C2D52E0008EC3ED /* Ab(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D62C2D52DF008EC3ED /* Ab(bass).mp3 */; };
+		9A31F5E32C2D52E0008EC3ED /* C(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D72C2D52DF008EC3ED /* C(bass).mp3 */; };
+		9A31F5E42C2D52E0008EC3ED /* G(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D82C2D52DF008EC3ED /* G(bass).mp3 */; };
+		9A31F5E52C2D52E0008EC3ED /* C#(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D92C2D52DF008EC3ED /* C#(bass).mp3 */; };
+		9A31F5E62C2D52E0008EC3ED /* D(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5DA2C2D52DF008EC3ED /* D(bass).mp3 */; };
+		9A31F5E72C2D52E0008EC3ED /* E(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5DB2C2D52DF008EC3ED /* E(bass).mp3 */; };
+		9A31F5E82C2D52E0008EC3ED /* F(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5DC2C2D52DF008EC3ED /* F(bass).mp3 */; };
+		9A31F5E92C2D52E0008EC3ED /* H(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5DD2C2D52DF008EC3ED /* H(bass).mp3 */; };
+		9A31F5EA2C2D52E0008EC3ED /* A(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5DE2C2D52DF008EC3ED /* A(bass).mp3 */; };
+		9A31F5EB2C2D52E0008EC3ED /* F#(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5DF2C2D52DF008EC3ED /* F#(bass).mp3 */; };
+		9A31F5EC2C2D52E0008EC3ED /* Hb(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5E02C2D52DF008EC3ED /* Hb(bass).mp3 */; };
+		9A44DA262C0FC5FD0043084E /* ForestBandApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA252C0FC5FD0043084E /* ForestBandApp.swift */; };
+		9A44DA282C0FC5FD0043084E /* SelectInstrView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA272C0FC5FD0043084E /* SelectInstrView.swift */; };
+		9A44DA2A2C0FC5FE0043084E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A44DA292C0FC5FE0043084E /* Assets.xcassets */; };
+		9A44DA2D2C0FC5FE0043084E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A44DA2C2C0FC5FE0043084E /* Preview Assets.xcassets */; };
+		9A44DA342C0FC8A30043084E /* FunnyDrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA332C0FC8A30043084E /* FunnyDrumsView.swift */; };
+		9A44DA3A2C0FC9220043084E /* BassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA392C0FC9220043084E /* BassView.swift */; };
+		9A44DA3C2C0FC9370043084E /* CAmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA3B2C0FC9370043084E /* CAmView.swift */; };
+		9A44DA3E2C0FC9620043084E /* DrumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA3D2C0FC9620043084E /* DrumsViewModel.swift */; };
+		9A44DA402C0FC9910043084E /* BassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA3F2C0FC9910043084E /* BassViewModel.swift */; };
+		9A769AE42C2DC94C009D645F /* Kick(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769ADF2C2DC94C009D645F /* Kick(drums).mp3 */; };
+		9A769AE52C2DC94C009D645F /* Snare(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769AE02C2DC94C009D645F /* Snare(drums).mp3 */; };
+		9A769AE62C2DC94C009D645F /* H-HOpen(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769AE12C2DC94C009D645F /* H-HOpen(drums).mp3 */; };
+		9A769AE72C2DC94C009D645F /* H-H(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769AE22C2DC94C009D645F /* H-H(drums).mp3 */; };
+		9A769AE82C2DC94C009D645F /* Crash(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769AE32C2DC94C009D645F /* Crash(drums).mp3 */; };
+		9A80F0982C31A838003A1A66 /* E.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0892C31A838003A1A66 /* E.mp3 */; };
+		9A80F0992C31A838003A1A66 /* Fm#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F08A2C31A838003A1A66 /* Fm#.mp3 */; };
+		9A80F09A2C31A838003A1A66 /* C.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F08B2C31A838003A1A66 /* C.mp3 */; };
+		9A80F09B2C31A838003A1A66 /* D.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F08C2C31A838003A1A66 /* D.mp3 */; };
+		9A80F09C2C31A838003A1A66 /* Am.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F08D2C31A838003A1A66 /* Am.mp3 */; };
+		9A80F09D2C31A838003A1A66 /* Gm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F08E2C31A838003A1A66 /* Gm.mp3 */; };
+		9A80F09E2C31A838003A1A66 /* Em.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F08F2C31A838003A1A66 /* Em.mp3 */; };
+		9A80F09F2C31A838003A1A66 /* Hb.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0902C31A838003A1A66 /* Hb.mp3 */; };
+		9A80F0A02C31A838003A1A66 /* G.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0912C31A838003A1A66 /* G.mp3 */; };
+		9A80F0A12C31A838003A1A66 /* A.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0922C31A838003A1A66 /* A.mp3 */; };
+		9A80F0A22C31A838003A1A66 /* H.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0932C31A838003A1A66 /* H.mp3 */; };
+		9A80F0A32C31A838003A1A66 /* F#.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0942C31A838003A1A66 /* F#.mp3 */; };
+		9A80F0A42C31A838003A1A66 /* Hm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0952C31A838003A1A66 /* Hm.mp3 */; };
+		9A80F0A52C31A838003A1A66 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0962C31A838003A1A66 /* F.mp3 */; };
+		9A80F0A62C31A838003A1A66 /* Dm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0972C31A838003A1A66 /* Dm.mp3 */; };
+		9AF65BAD2C2B02AA0011DD43 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF65BAC2C2B02AA0011DD43 /* Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9A1A69EB2C1059490071FFE8 /* SelectKeyForGuitar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectKeyForGuitar.swift; sourceTree = "<group>"; };
+		9A1A69EE2C105C4A0071FFE8 /* GEmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEmView.swift; sourceTree = "<group>"; };
+		9A1A69F02C105C5C0071FFE8 /* DHmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHmView.swift; sourceTree = "<group>"; };
+		9A1A69F22C105C6D0071FFE8 /* FDmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDmView.swift; sourceTree = "<group>"; };
+		9A1A69F42C10603D0071FFE8 /* CAmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAmGuitarViewModel.swift; sourceTree = "<group>"; };
+		9A1A69F72C1060BD0071FFE8 /* GEmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEmGuitarViewModel.swift; sourceTree = "<group>"; };
+		9A1A69F92C1061080071FFE8 /* DHmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHmGuitarViewModel.swift; sourceTree = "<group>"; };
+		9A1A69FB2C1061580071FFE8 /* FDmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDmGuitarViewModel.swift; sourceTree = "<group>"; };
+		9A225F052C1A621A0015A065 /* DrumsTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsTrueView.swift; sourceTree = "<group>"; };
+		9A31F5D52C2D52DF008EC3ED /* Eb(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Eb(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/Eb(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5D62C2D52DF008EC3ED /* Ab(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ab(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/Ab(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5D72C2D52DF008EC3ED /* C(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/C(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5D82C2D52DF008EC3ED /* G(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "G(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/G(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5D92C2D52DF008EC3ED /* C#(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "C#(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/C#(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5DA2C2D52DF008EC3ED /* D(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "D(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/D(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5DB2C2D52DF008EC3ED /* E(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "E(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/E(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5DC2C2D52DF008EC3ED /* F(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/F(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5DD2C2D52DF008EC3ED /* H(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "H(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/H(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5DE2C2D52DF008EC3ED /* A(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "A(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/A(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5DF2C2D52DF008EC3ED /* F#(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/F#(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A31F5E02C2D52DF008EC3ED /* Hb(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Hb(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/Hb(bass).mp3"; sourceTree = SOURCE_ROOT; };
+		9A44DA222C0FC5FD0043084E /* ForestBand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForestBand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A44DA252C0FC5FD0043084E /* ForestBandApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestBandApp.swift; sourceTree = "<group>"; };
+		9A44DA272C0FC5FD0043084E /* SelectInstrView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectInstrView.swift; sourceTree = "<group>"; };
+		9A44DA292C0FC5FE0043084E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A44DA2C2C0FC5FE0043084E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9A44DA332C0FC8A30043084E /* FunnyDrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyDrumsView.swift; sourceTree = "<group>"; };
+		9A44DA392C0FC9220043084E /* BassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassView.swift; sourceTree = "<group>"; };
+		9A44DA3B2C0FC9370043084E /* CAmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAmView.swift; sourceTree = "<group>"; };
+		9A44DA3D2C0FC9620043084E /* DrumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsViewModel.swift; sourceTree = "<group>"; };
+		9A44DA3F2C0FC9910043084E /* BassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassViewModel.swift; sourceTree = "<group>"; };
+		9A769ADF2C2DC94C009D645F /* Kick(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kick(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/Kick(drums).mp3"; sourceTree = SOURCE_ROOT; };
+		9A769AE02C2DC94C009D645F /* Snare(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Snare(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/Snare(drums).mp3"; sourceTree = SOURCE_ROOT; };
+		9A769AE12C2DC94C009D645F /* H-HOpen(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "H-HOpen(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/H-HOpen(drums).mp3"; sourceTree = SOURCE_ROOT; };
+		9A769AE22C2DC94C009D645F /* H-H(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "H-H(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/H-H(drums).mp3"; sourceTree = SOURCE_ROOT; };
+		9A769AE32C2DC94C009D645F /* Crash(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Crash(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/Crash(drums).mp3"; sourceTree = SOURCE_ROOT; };
+		9A80F0892C31A838003A1A66 /* E.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = E.mp3; path = Sempls/GuitarSempls/E.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F08A2C31A838003A1A66 /* Fm#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Fm#.mp3"; path = "Sempls/GuitarSempls/Fm#.mp3"; sourceTree = SOURCE_ROOT; };
+		9A80F08B2C31A838003A1A66 /* C.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = C.mp3; path = Sempls/GuitarSempls/C.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F08C2C31A838003A1A66 /* D.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = D.mp3; path = Sempls/GuitarSempls/D.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F08D2C31A838003A1A66 /* Am.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Am.mp3; path = Sempls/GuitarSempls/Am.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F08E2C31A838003A1A66 /* Gm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Gm.mp3; path = Sempls/GuitarSempls/Gm.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F08F2C31A838003A1A66 /* Em.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Em.mp3; path = Sempls/GuitarSempls/Em.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0902C31A838003A1A66 /* Hb.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hb.mp3; path = Sempls/GuitarSempls/Hb.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0912C31A838003A1A66 /* G.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = G.mp3; path = Sempls/GuitarSempls/G.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0922C31A838003A1A66 /* A.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = A.mp3; path = Sempls/GuitarSempls/A.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0932C31A838003A1A66 /* H.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = H.mp3; path = Sempls/GuitarSempls/H.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0942C31A838003A1A66 /* F#.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#.mp3"; path = "Sempls/GuitarSempls/F#.mp3"; sourceTree = SOURCE_ROOT; };
+		9A80F0952C31A838003A1A66 /* Hm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hm.mp3; path = Sempls/GuitarSempls/Hm.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0962C31A838003A1A66 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F.mp3; path = Sempls/GuitarSempls/F.mp3; sourceTree = SOURCE_ROOT; };
+		9A80F0972C31A838003A1A66 /* Dm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dm.mp3; path = Sempls/GuitarSempls/Dm.mp3; sourceTree = SOURCE_ROOT; };
+		9AF65BAC2C2B02AA0011DD43 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A44DA1F2C0FC5FD0043084E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A1A69ED2C105BF50071FFE8 /* GuitarViews */ = {
+			isa = PBXGroup;
+			children = (
+				9A44DA3B2C0FC9370043084E /* CAmView.swift */,
+				9A1A69EB2C1059490071FFE8 /* SelectKeyForGuitar.swift */,
+				9A1A69EE2C105C4A0071FFE8 /* GEmView.swift */,
+				9A1A69F02C105C5C0071FFE8 /* DHmView.swift */,
+				9A1A69F22C105C6D0071FFE8 /* FDmView.swift */,
+			);
+			path = GuitarViews;
+			sourceTree = "<group>";
+		};
+		9A1A69F62C1060820071FFE8 /* GuitarViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A69F42C10603D0071FFE8 /* CAmGuitarViewModel.swift */,
+				9A1A69F72C1060BD0071FFE8 /* GEmGuitarViewModel.swift */,
+				9A1A69F92C1061080071FFE8 /* DHmGuitarViewModel.swift */,
+				9A1A69FB2C1061580071FFE8 /* FDmGuitarViewModel.swift */,
+			);
+			path = GuitarViewModels;
+			sourceTree = "<group>";
+		};
+		9A44DA192C0FC5FD0043084E = {
+			isa = PBXGroup;
+			children = (
+				9A44DA242C0FC5FD0043084E /* ForestBand */,
+				9A44DA232C0FC5FD0043084E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A44DA232C0FC5FD0043084E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A44DA222C0FC5FD0043084E /* ForestBand.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A44DA242C0FC5FD0043084E /* ForestBand */ = {
+			isa = PBXGroup;
+			children = (
+				9A44DA252C0FC5FD0043084E /* ForestBandApp.swift */,
+				9AF65BAE2C2B02C50011DD43 /* Model */,
+				9A44DA362C0FC8D20043084E /* ViewModels */,
+				9A44DA352C0FC8B90043084E /* Views */,
+				9A44DA292C0FC5FE0043084E /* Assets.xcassets */,
+				9A44DA2B2C0FC5FE0043084E /* Preview Content */,
+			);
+			path = ForestBand;
+			sourceTree = "<group>";
+		};
+		9A44DA2B2C0FC5FE0043084E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9A44DA2C2C0FC5FE0043084E /* Preview Assets.xcassets */,
+				9A31F5DE2C2D52DF008EC3ED /* A(bass).mp3 */,
+				9A31F5D62C2D52DF008EC3ED /* Ab(bass).mp3 */,
+				9A31F5D72C2D52DF008EC3ED /* C(bass).mp3 */,
+				9A31F5D92C2D52DF008EC3ED /* C#(bass).mp3 */,
+				9A31F5DA2C2D52DF008EC3ED /* D(bass).mp3 */,
+				9A31F5DB2C2D52DF008EC3ED /* E(bass).mp3 */,
+				9A31F5D52C2D52DF008EC3ED /* Eb(bass).mp3 */,
+				9A31F5DC2C2D52DF008EC3ED /* F(bass).mp3 */,
+				9A31F5DF2C2D52DF008EC3ED /* F#(bass).mp3 */,
+				9A31F5D82C2D52DF008EC3ED /* G(bass).mp3 */,
+				9A31F5DD2C2D52DF008EC3ED /* H(bass).mp3 */,
+				9A31F5E02C2D52DF008EC3ED /* Hb(bass).mp3 */,
+				9A769AE32C2DC94C009D645F /* Crash(drums).mp3 */,
+				9A769AE22C2DC94C009D645F /* H-H(drums).mp3 */,
+				9A769AE12C2DC94C009D645F /* H-HOpen(drums).mp3 */,
+				9A769ADF2C2DC94C009D645F /* Kick(drums).mp3 */,
+				9A769AE02C2DC94C009D645F /* Snare(drums).mp3 */,
+				9A80F0922C31A838003A1A66 /* A.mp3 */,
+				9A80F08D2C31A838003A1A66 /* Am.mp3 */,
+				9A80F08B2C31A838003A1A66 /* C.mp3 */,
+				9A80F08C2C31A838003A1A66 /* D.mp3 */,
+				9A80F0972C31A838003A1A66 /* Dm.mp3 */,
+				9A80F0892C31A838003A1A66 /* E.mp3 */,
+				9A80F08F2C31A838003A1A66 /* Em.mp3 */,
+				9A80F0962C31A838003A1A66 /* F.mp3 */,
+				9A80F0942C31A838003A1A66 /* F#.mp3 */,
+				9A80F08A2C31A838003A1A66 /* Fm#.mp3 */,
+				9A80F0912C31A838003A1A66 /* G.mp3 */,
+				9A80F08E2C31A838003A1A66 /* Gm.mp3 */,
+				9A80F0932C31A838003A1A66 /* H.mp3 */,
+				9A80F0902C31A838003A1A66 /* Hb.mp3 */,
+				9A80F0952C31A838003A1A66 /* Hm.mp3 */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9A44DA352C0FC8B90043084E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A69ED2C105BF50071FFE8 /* GuitarViews */,
+				9A44DA272C0FC5FD0043084E /* SelectInstrView.swift */,
+				9A44DA332C0FC8A30043084E /* FunnyDrumsView.swift */,
+				9A44DA392C0FC9220043084E /* BassView.swift */,
+				9A225F052C1A621A0015A065 /* DrumsTrueView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		9A44DA362C0FC8D20043084E /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				9A1A69F62C1060820071FFE8 /* GuitarViewModels */,
+				9A44DA3D2C0FC9620043084E /* DrumsViewModel.swift */,
+				9A44DA3F2C0FC9910043084E /* BassViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9AF65BAE2C2B02C50011DD43 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AF65BAC2C2B02AA0011DD43 /* Player.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A44DA212C0FC5FD0043084E /* ForestBand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A44DA302C0FC5FE0043084E /* Build configuration list for PBXNativeTarget "ForestBand" */;
+			buildPhases = (
+				9A44DA1E2C0FC5FD0043084E /* Sources */,
+				9A44DA1F2C0FC5FD0043084E /* Frameworks */,
+				9A44DA202C0FC5FD0043084E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ForestBand;
+			productName = ForestBand;
+			productReference = 9A44DA222C0FC5FD0043084E /* ForestBand.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A44DA1A2C0FC5FD0043084E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					9A44DA212C0FC5FD0043084E = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 9A44DA1D2C0FC5FD0043084E /* Build configuration list for PBXProject "ForestBand" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A44DA192C0FC5FD0043084E;
+			productRefGroup = 9A44DA232C0FC5FD0043084E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A44DA212C0FC5FD0043084E /* ForestBand */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A44DA202C0FC5FD0043084E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A80F0A52C31A838003A1A66 /* F.mp3 in Resources */,
+				9A80F09E2C31A838003A1A66 /* Em.mp3 in Resources */,
+				9A80F09D2C31A838003A1A66 /* Gm.mp3 in Resources */,
+				9A80F09F2C31A838003A1A66 /* Hb.mp3 in Resources */,
+				9A80F0A22C31A838003A1A66 /* H.mp3 in Resources */,
+				9A80F0A62C31A838003A1A66 /* Dm.mp3 in Resources */,
+				9A80F09A2C31A838003A1A66 /* C.mp3 in Resources */,
+				9A44DA2D2C0FC5FE0043084E /* Preview Assets.xcassets in Resources */,
+				9A80F09C2C31A838003A1A66 /* Am.mp3 in Resources */,
+				9A31F5E92C2D52E0008EC3ED /* H(bass).mp3 in Resources */,
+				9A31F5E82C2D52E0008EC3ED /* F(bass).mp3 in Resources */,
+				9A769AE72C2DC94C009D645F /* H-H(drums).mp3 in Resources */,
+				9A80F0982C31A838003A1A66 /* E.mp3 in Resources */,
+				9A769AE52C2DC94C009D645F /* Snare(drums).mp3 in Resources */,
+				9A44DA2A2C0FC5FE0043084E /* Assets.xcassets in Resources */,
+				9A31F5EA2C2D52E0008EC3ED /* A(bass).mp3 in Resources */,
+				9A31F5E12C2D52E0008EC3ED /* Eb(bass).mp3 in Resources */,
+				9A31F5EC2C2D52E0008EC3ED /* Hb(bass).mp3 in Resources */,
+				9A769AE82C2DC94C009D645F /* Crash(drums).mp3 in Resources */,
+				9A31F5E22C2D52E0008EC3ED /* Ab(bass).mp3 in Resources */,
+				9A31F5E42C2D52E0008EC3ED /* G(bass).mp3 in Resources */,
+				9A31F5E32C2D52E0008EC3ED /* C(bass).mp3 in Resources */,
+				9A80F09B2C31A838003A1A66 /* D.mp3 in Resources */,
+				9A769AE42C2DC94C009D645F /* Kick(drums).mp3 in Resources */,
+				9A80F0992C31A838003A1A66 /* Fm#.mp3 in Resources */,
+				9A80F0A32C31A838003A1A66 /* F#.mp3 in Resources */,
+				9A31F5E72C2D52E0008EC3ED /* E(bass).mp3 in Resources */,
+				9A80F0A42C31A838003A1A66 /* Hm.mp3 in Resources */,
+				9A31F5E52C2D52E0008EC3ED /* C#(bass).mp3 in Resources */,
+				9A80F0A12C31A838003A1A66 /* A.mp3 in Resources */,
+				9A31F5E62C2D52E0008EC3ED /* D(bass).mp3 in Resources */,
+				9A31F5EB2C2D52E0008EC3ED /* F#(bass).mp3 in Resources */,
+				9A80F0A02C31A838003A1A66 /* G.mp3 in Resources */,
+				9A769AE62C2DC94C009D645F /* H-HOpen(drums).mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A44DA1E2C0FC5FD0043084E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A44DA3C2C0FC9370043084E /* CAmView.swift in Sources */,
+				9A1A69F12C105C5C0071FFE8 /* DHmView.swift in Sources */,
+				9A44DA282C0FC5FD0043084E /* SelectInstrView.swift in Sources */,
+				9A1A69FC2C1061580071FFE8 /* FDmGuitarViewModel.swift in Sources */,
+				9A225F062C1A621A0015A065 /* DrumsTrueView.swift in Sources */,
+				9A1A69EC2C1059490071FFE8 /* SelectKeyForGuitar.swift in Sources */,
+				9A1A69EF2C105C4A0071FFE8 /* GEmView.swift in Sources */,
+				9A1A69F32C105C6D0071FFE8 /* FDmView.swift in Sources */,
+				9A44DA402C0FC9910043084E /* BassViewModel.swift in Sources */,
+				9A1A69F52C10603D0071FFE8 /* CAmGuitarViewModel.swift in Sources */,
+				9A44DA3A2C0FC9220043084E /* BassView.swift in Sources */,
+				9A44DA262C0FC5FD0043084E /* ForestBandApp.swift in Sources */,
+				9A1A69FA2C1061080071FFE8 /* DHmGuitarViewModel.swift in Sources */,
+				9A1A69F82C1060BD0071FFE8 /* GEmGuitarViewModel.swift in Sources */,
+				9A44DA3E2C0FC9620043084E /* DrumsViewModel.swift in Sources */,
+				9AF65BAD2C2B02AA0011DD43 /* Player.swift in Sources */,
+				9A44DA342C0FC8A30043084E /* FunnyDrumsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9A44DA2E2C0FC5FE0043084E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9A44DA2F2C0FC5FE0043084E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A44DA312C0FC5FE0043084E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ForestBand/Preview Content\"";
+				DEVELOPMENT_TEAM = 795ZD82PL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Mordor.ForestBand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9A44DA322C0FC5FE0043084E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ForestBand/Preview Content\"";
+				DEVELOPMENT_TEAM = 795ZD82PL2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = Mordor.ForestBand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A44DA1D2C0FC5FD0043084E /* Build configuration list for PBXProject "ForestBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A44DA2E2C0FC5FE0043084E /* Debug */,
+				9A44DA2F2C0FC5FE0043084E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A44DA302C0FC5FE0043084E /* Build configuration list for PBXNativeTarget "ForestBand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A44DA312C0FC5FE0043084E /* Debug */,
+				9A44DA322C0FC5FE0043084E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9A44DA1A2C0FC5FD0043084E /* Project object */;
+}
