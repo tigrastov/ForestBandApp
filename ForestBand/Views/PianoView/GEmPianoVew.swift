@@ -2,75 +2,77 @@
 
 import SwiftUI
 
-struct CAmView: View {
+struct GEmPianoVew: View {
     @State private var isShowSelectView = false
     @State private var isShowset = false
-    
     @ObservedObject var viewModel = ViewModelAll()
     var body: some View {
         VStack(spacing: 3){
             
-            
-            
             HStack(spacing: 70){
                 
                 
-                Image("C")
+                Image("G(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "C")
+                        self.viewModel.play(name: "Gpiano")
                     }
                 
-                Image("Dm")
+                Image("Am(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Dm")
+                        self.viewModel.play(name: "AmPiano")
                         
                         
                     }
             }
             
+            
             HStack(spacing: 70){
                 
-                Image("Am")
+                Image("Em(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Am")
+                        self.viewModel.play(name: "EmPiano")
                     }
-                Image("Em")
+                Image("D(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Em")
+                        self.viewModel.play(name: "Dpiano")
                     }
                 
             }
             HStack(spacing: 70){
                 
-                Image("F")
+                Image("Hm(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "F")
+                        self.viewModel.play(name: "HmPiano")
                     }
-                Image("G")
+                Image("C(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "G")
+                        self.viewModel.play(name: "Cpiano")
                     }
                 
             }
             HStack(spacing: 70){
                 
-                Image("E")
+                Image("H(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "E")
+                        self.viewModel.play(name: "Hpiano")
                     }
-                Image("D")
+                Image("A(G-Em)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "D")
+                        self.viewModel.play(name: "Apiano")
                     }
+                
+                
             }
+            
+            
+            
+            
+            
         }
         
         .offset(y: -40)
-        
         .frame(width: screen.width, height: screen.height)
-            .background(Image("C - AmBg").resizable().scaledToFill().ignoresSafeArea())
-        
-        
+            .background(Image("G - EmBg").resizable().scaledToFill().ignoresSafeArea())
            .overlay(alignment: .bottom) {
             HStack{
                 
@@ -78,28 +80,25 @@ struct CAmView: View {
                     isShowSelectView.toggle()
                 } label: {
                     VStack{
-                        Text("Guitar accords").foregroundStyle(Color.white)
-                            
-                        Text("C - Am").foregroundStyle(Color.white).font(.largeTitle)
+                        Text("Piano accords").foregroundStyle(Color.white)
+                        Text("G - Em").foregroundStyle(Color.white).font(.largeTitle)
                     }
                 }
-                .fullScreenCover(isPresented: $isShowSelectView){
-                    SelectKeyForGuitar()
-                }
-              
-                
 
+                .fullScreenCover(isPresented: $isShowSelectView){
+                    SelectKeyPiano()
+                }
+               
+                
                 Button(action: {
                     isShowset.toggle()
                 }, label: {
                     Image("settings")
                 })
-                .fullScreenCover(isPresented: $isShowset) {
+                .fullScreenCover(isPresented: $isShowset, content: {
                     SelectInstrView()
-                }.offset(x: 55)
-                    
-                
-            }.frame(width: screen.width * 0.95, height: screen.height / 7).background(Color("tabC-Am")).shadow(radius: 5).cornerRadius(60)
+                }).offset(x: 55)
+            }.frame(width: screen.width * 0.95, height: screen.height / 7).background(Color("TabE")).shadow(radius: 5).cornerRadius(60)
                    .padding()
                    .onTapGesture {
                        self.viewModel.stop()
@@ -107,10 +106,13 @@ struct CAmView: View {
         }
         
         
-        
     }
 }
+
 #Preview {
-    CAmView()
+    GEmPianoVew()
 }
+
+
+
 

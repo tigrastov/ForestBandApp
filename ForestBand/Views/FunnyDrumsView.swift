@@ -2,7 +2,7 @@
 import SwiftUI
 
 struct FunnyDrumsView: View {
-    @ObservedObject var viewModel = DrumsViewModel()
+    @ObservedObject var viewModel = DrumsViewModelNew()
     @State private var isShowset = false
     @State private var isShowTrue = false
     var body: some View {
@@ -11,30 +11,30 @@ struct FunnyDrumsView: View {
                 VStack{
                     Image("H-H").onLongPressGesture(minimumDuration: 0) {
                         print("4")
-                        self.viewModel.play4()
+                        self.viewModel.play(name: "H-HOpen(drums)")
                     }
                     
                     Image("CLOSED").onLongPressGesture(minimumDuration: 0) {
                         print("3")
-                        self.viewModel.play3()
+                        self.viewModel.play(name: "H-H(drums)")
                     }.offset(x: -10)
                     
                     Image("SNARE").onLongPressGesture (minimumDuration: 0){
                         print("2")
-                        self.viewModel.play2()
+                        self.viewModel.play(name: "Snare(drums)")
                     }
                     .offset(x: -12, y: 0 )
                 }.offset(x: 17,y: -90)
                 VStack{
                     Image("Big").onLongPressGesture(minimumDuration: 0) {
                         print("5")
-                        self.viewModel.play5()
+                        self.viewModel.play(name: "Crash(drums)")
                     }.offset(y: 7)
                     
                     
                     Image("Kick").onLongPressGesture(minimumDuration: 0) {
                         print("1")
-                        self.viewModel.play1()
+                        self.viewModel.play(name: "Kick(drums)")
                     }
                     
                     
@@ -88,4 +88,5 @@ struct FunnyDrumsView: View {
     #Preview {
         FunnyDrumsView()
     }
+
 

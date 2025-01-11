@@ -3,7 +3,7 @@
 import SwiftUI
 
 struct BassView: View {
-    @ObservedObject var viewModel = BassViewModel()
+    @ObservedObject var viewModel = ViewModelAll()
     @State private var isShowset = false
     var body: some View {
         VStack {
@@ -13,53 +13,54 @@ struct BassView: View {
                     
                     Image("ABass").onLongPressGesture(minimumDuration: 0) {
                         print("A")
-                        self.viewModel.play1()
+                       // self.viewModel.playAll(name: "A(bass)")
+                        viewModel.play(name: "A(bass)")
                     }
                     Image("AbBass").onLongPressGesture(minimumDuration: 0) {
                         print("Ab")
-                        self.viewModel.play2()
+                        viewModel.play(name: "Ab(bass)")
                     }
                     Image("GBass").onLongPressGesture (minimumDuration: 0){
                         print("G")
-                        self.viewModel.play3()
+                        viewModel.play(name: "G(bass)")
                     }
                     Image("F#Bass").onLongPressGesture(minimumDuration: 0) {
                         print("F#")
-                        self.viewModel.play4()
+                        viewModel.play(name: "F#(bass)")
                     }
                     Image("imageF").onLongPressGesture(minimumDuration: 0) {
                         print("F")
-                        self.viewModel.play5()
+                        viewModel.play(name: "F(bass)")
                     }
                     Image("EBass").onLongPressGesture (minimumDuration: 0){
                         print("E")
-                        self.viewModel.play6()
+                        viewModel.play(name: "E(bass)")
                     }
                 }
                 VStack{
                     Image("HbBass").onLongPressGesture(minimumDuration: 0) {
                         print("Hb")
-                        self.viewModel.play7()
+                        viewModel.play(name: "Hb(bass)")
                     }
                     Image("HBass").onLongPressGesture(minimumDuration: 0) {
                         print("H")
-                        self.viewModel.play8()
+                        viewModel.play(name: "H(bass)")
                     }
                     Image("imageC").onLongPressGesture (minimumDuration: 0){
                         print("C")
-                        self.viewModel.play9()
+                        viewModel.play(name: "C(bass)")
                     }
                     Image("C#Bass").onLongPressGesture(minimumDuration: 0) {
                         print("C#")
-                        self.viewModel.play10()
+                        viewModel.play(name: "C#(bass)")
                     }
                     Image("DBass").onLongPressGesture(minimumDuration: 0) {
                         print("D")
-                        self.viewModel.play11()
+                        viewModel.play(name: "D(bass)")
                     }
                     Image("EbBass").onLongPressGesture (minimumDuration: 0){
                         print("Eb")
-                        self.viewModel.play12()
+                        viewModel.play(name: "Eb(bass)")
                     }
                 }
             }

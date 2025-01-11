@@ -11,10 +11,6 @@
 		9A1A69EF2C105C4A0071FFE8 /* GEmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69EE2C105C4A0071FFE8 /* GEmView.swift */; };
 		9A1A69F12C105C5C0071FFE8 /* DHmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F02C105C5C0071FFE8 /* DHmView.swift */; };
 		9A1A69F32C105C6D0071FFE8 /* FDmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F22C105C6D0071FFE8 /* FDmView.swift */; };
-		9A1A69F52C10603D0071FFE8 /* CAmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F42C10603D0071FFE8 /* CAmGuitarViewModel.swift */; };
-		9A1A69F82C1060BD0071FFE8 /* GEmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F72C1060BD0071FFE8 /* GEmGuitarViewModel.swift */; };
-		9A1A69FA2C1061080071FFE8 /* DHmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69F92C1061080071FFE8 /* DHmGuitarViewModel.swift */; };
-		9A1A69FC2C1061580071FFE8 /* FDmGuitarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A1A69FB2C1061580071FFE8 /* FDmGuitarViewModel.swift */; };
 		9A225F062C1A621A0015A065 /* DrumsTrueView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A225F052C1A621A0015A065 /* DrumsTrueView.swift */; };
 		9A31F5E12C2D52E0008EC3ED /* Eb(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D52C2D52DF008EC3ED /* Eb(bass).mp3 */; };
 		9A31F5E22C2D52E0008EC3ED /* Ab(bass).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A31F5D62C2D52DF008EC3ED /* Ab(bass).mp3 */; };
@@ -35,8 +31,7 @@
 		9A44DA342C0FC8A30043084E /* FunnyDrumsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA332C0FC8A30043084E /* FunnyDrumsView.swift */; };
 		9A44DA3A2C0FC9220043084E /* BassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA392C0FC9220043084E /* BassView.swift */; };
 		9A44DA3C2C0FC9370043084E /* CAmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA3B2C0FC9370043084E /* CAmView.swift */; };
-		9A44DA3E2C0FC9620043084E /* DrumsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA3D2C0FC9620043084E /* DrumsViewModel.swift */; };
-		9A44DA402C0FC9910043084E /* BassViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A44DA3F2C0FC9910043084E /* BassViewModel.swift */; };
+		9A50D6AF2D32827B0089E095 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A50D6AE2D32827B0089E095 /* LaunchView.swift */; };
 		9A769AE42C2DC94C009D645F /* Kick(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769ADF2C2DC94C009D645F /* Kick(drums).mp3 */; };
 		9A769AE52C2DC94C009D645F /* Snare(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769AE02C2DC94C009D645F /* Snare(drums).mp3 */; };
 		9A769AE62C2DC94C009D645F /* H-HOpen(drums).mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A769AE12C2DC94C009D645F /* H-HOpen(drums).mp3 */; };
@@ -57,6 +52,29 @@
 		9A80F0A42C31A838003A1A66 /* Hm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0952C31A838003A1A66 /* Hm.mp3 */; };
 		9A80F0A52C31A838003A1A66 /* F.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0962C31A838003A1A66 /* F.mp3 */; };
 		9A80F0A62C31A838003A1A66 /* Dm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9A80F0972C31A838003A1A66 /* Dm.mp3 */; };
+		9A8177CA2D31DDE60003E36D /* ViewModelAll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8177C92D31DDE60003E36D /* ViewModelAll.swift */; };
+		9A8177CE2D31F0120003E36D /* CAmPiano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8177CD2D31F0120003E36D /* CAmPiano.swift */; };
+		9A8177D12D31F0460003E36D /* GEmPianoVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8177D02D31F0460003E36D /* GEmPianoVew.swift */; };
+		9A8177D32D31F0570003E36D /* DHmPianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8177D22D31F0570003E36D /* DHmPianoView.swift */; };
+		9A8177D52D31F06A0003E36D /* FDmPianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8177D42D31F06A0003E36D /* FDmPianoView.swift */; };
+		9A8177D72D31F0920003E36D /* SelectKeyPiano.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A8177D62D31F0920003E36D /* SelectKeyPiano.swift */; };
+		9ABD815C2D319276007C6BB0 /* PlayerDrums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD815B2D319276007C6BB0 /* PlayerDrums.swift */; };
+		9ABD815E2D31960C007C6BB0 /* DrumsViewModelNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ABD815D2D31960C007C6BB0 /* DrumsViewModelNew.swift */; };
+		9ADB4F1D2D3200DA00DD93A6 /* F#piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F152D3200DA00DD93A6 /* F#piano.mp3 */; };
+		9ADB4F1E2D3200DA00DD93A6 /* AmPiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F0E2D3200DA00DD93A6 /* AmPiano.mp3 */; };
+		9ADB4F1F2D3200DA00DD93A6 /* Dpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F122D3200DA00DD93A6 /* Dpiano.mp3 */; };
+		9ADB4F202D3200DA00DD93A6 /* Cpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F102D3200DA00DD93A6 /* Cpiano.mp3 */; };
+		9ADB4F212D3200DA00DD93A6 /* DmPiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F112D3200DA00DD93A6 /* DmPiano.mp3 */; };
+		9ADB4F222D3200DA00DD93A6 /* EmPiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F132D3200DA00DD93A6 /* EmPiano.mp3 */; };
+		9ADB4F232D3200DA00DD93A6 /* Fpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F172D3200DA00DD93A6 /* Fpiano.mp3 */; };
+		9ADB4F242D3200DA00DD93A6 /* HmPiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F1B2D3200DA00DD93A6 /* HmPiano.mp3 */; };
+		9ADB4F252D3200DA00DD93A6 /* Apiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F0F2D3200DA00DD93A6 /* Apiano.mp3 */; };
+		9ADB4F262D3200DA00DD93A6 /* Fm#Piano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F162D3200DA00DD93A6 /* Fm#Piano.mp3 */; };
+		9ADB4F272D3200DA00DD93A6 /* GmPiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F182D3200DA00DD93A6 /* GmPiano.mp3 */; };
+		9ADB4F282D3200DA00DD93A6 /* Epiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F142D3200DA00DD93A6 /* Epiano.mp3 */; };
+		9ADB4F292D3200DA00DD93A6 /* Gpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F192D3200DA00DD93A6 /* Gpiano.mp3 */; };
+		9ADB4F2A2D3200DA00DD93A6 /* Hpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F1C2D3200DA00DD93A6 /* Hpiano.mp3 */; };
+		9ADB4F2B2D3200DA00DD93A6 /* Hbpiano.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9ADB4F1A2D3200DA00DD93A6 /* Hbpiano.mp3 */; };
 		9AF65BAD2C2B02AA0011DD43 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AF65BAC2C2B02AA0011DD43 /* Player.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,10 +83,6 @@
 		9A1A69EE2C105C4A0071FFE8 /* GEmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEmView.swift; sourceTree = "<group>"; };
 		9A1A69F02C105C5C0071FFE8 /* DHmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHmView.swift; sourceTree = "<group>"; };
 		9A1A69F22C105C6D0071FFE8 /* FDmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDmView.swift; sourceTree = "<group>"; };
-		9A1A69F42C10603D0071FFE8 /* CAmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAmGuitarViewModel.swift; sourceTree = "<group>"; };
-		9A1A69F72C1060BD0071FFE8 /* GEmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEmGuitarViewModel.swift; sourceTree = "<group>"; };
-		9A1A69F92C1061080071FFE8 /* DHmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHmGuitarViewModel.swift; sourceTree = "<group>"; };
-		9A1A69FB2C1061580071FFE8 /* FDmGuitarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDmGuitarViewModel.swift; sourceTree = "<group>"; };
 		9A225F052C1A621A0015A065 /* DrumsTrueView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsTrueView.swift; sourceTree = "<group>"; };
 		9A31F5D52C2D52DF008EC3ED /* Eb(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Eb(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/Eb(bass).mp3"; sourceTree = SOURCE_ROOT; };
 		9A31F5D62C2D52DF008EC3ED /* Ab(bass).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Ab(bass).mp3"; path = "Sempls/ForestBandBass/BassSemplsMp3/Ab(bass).mp3"; sourceTree = SOURCE_ROOT; };
@@ -90,8 +104,7 @@
 		9A44DA332C0FC8A30043084E /* FunnyDrumsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunnyDrumsView.swift; sourceTree = "<group>"; };
 		9A44DA392C0FC9220043084E /* BassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassView.swift; sourceTree = "<group>"; };
 		9A44DA3B2C0FC9370043084E /* CAmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAmView.swift; sourceTree = "<group>"; };
-		9A44DA3D2C0FC9620043084E /* DrumsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsViewModel.swift; sourceTree = "<group>"; };
-		9A44DA3F2C0FC9910043084E /* BassViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BassViewModel.swift; sourceTree = "<group>"; };
+		9A50D6AE2D32827B0089E095 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		9A769ADF2C2DC94C009D645F /* Kick(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Kick(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/Kick(drums).mp3"; sourceTree = SOURCE_ROOT; };
 		9A769AE02C2DC94C009D645F /* Snare(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Snare(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/Snare(drums).mp3"; sourceTree = SOURCE_ROOT; };
 		9A769AE12C2DC94C009D645F /* H-HOpen(drums).mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "H-HOpen(drums).mp3"; path = "Sempls/ForestBandDrums/DrumsSempls/H-HOpen(drums).mp3"; sourceTree = SOURCE_ROOT; };
@@ -112,6 +125,29 @@
 		9A80F0952C31A838003A1A66 /* Hm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hm.mp3; path = Sempls/GuitarSempls/Hm.mp3; sourceTree = SOURCE_ROOT; };
 		9A80F0962C31A838003A1A66 /* F.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = F.mp3; path = Sempls/GuitarSempls/F.mp3; sourceTree = SOURCE_ROOT; };
 		9A80F0972C31A838003A1A66 /* Dm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dm.mp3; path = Sempls/GuitarSempls/Dm.mp3; sourceTree = SOURCE_ROOT; };
+		9A8177C92D31DDE60003E36D /* ViewModelAll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelAll.swift; sourceTree = "<group>"; };
+		9A8177CD2D31F0120003E36D /* CAmPiano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CAmPiano.swift; sourceTree = "<group>"; };
+		9A8177D02D31F0460003E36D /* GEmPianoVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GEmPianoVew.swift; sourceTree = "<group>"; };
+		9A8177D22D31F0570003E36D /* DHmPianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHmPianoView.swift; sourceTree = "<group>"; };
+		9A8177D42D31F06A0003E36D /* FDmPianoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FDmPianoView.swift; sourceTree = "<group>"; };
+		9A8177D62D31F0920003E36D /* SelectKeyPiano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectKeyPiano.swift; sourceTree = "<group>"; };
+		9ABD815B2D319276007C6BB0 /* PlayerDrums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerDrums.swift; sourceTree = "<group>"; };
+		9ABD815D2D31960C007C6BB0 /* DrumsViewModelNew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumsViewModelNew.swift; sourceTree = "<group>"; };
+		9ADB4F0E2D3200DA00DD93A6 /* AmPiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = AmPiano.mp3; path = Sempls/PianoSempls/AmPiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F0F2D3200DA00DD93A6 /* Apiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Apiano.mp3; path = Sempls/PianoSempls/Apiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F102D3200DA00DD93A6 /* Cpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Cpiano.mp3; path = Sempls/PianoSempls/Cpiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F112D3200DA00DD93A6 /* DmPiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = DmPiano.mp3; path = Sempls/PianoSempls/DmPiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F122D3200DA00DD93A6 /* Dpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Dpiano.mp3; path = Sempls/PianoSempls/Dpiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F132D3200DA00DD93A6 /* EmPiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EmPiano.mp3; path = Sempls/PianoSempls/EmPiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F142D3200DA00DD93A6 /* Epiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Epiano.mp3; path = Sempls/PianoSempls/Epiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F152D3200DA00DD93A6 /* F#piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "F#piano.mp3"; path = "Sempls/PianoSempls/F#piano.mp3"; sourceTree = SOURCE_ROOT; };
+		9ADB4F162D3200DA00DD93A6 /* Fm#Piano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "Fm#Piano.mp3"; path = "Sempls/PianoSempls/Fm#Piano.mp3"; sourceTree = SOURCE_ROOT; };
+		9ADB4F172D3200DA00DD93A6 /* Fpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Fpiano.mp3; path = Sempls/PianoSempls/Fpiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F182D3200DA00DD93A6 /* GmPiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GmPiano.mp3; path = Sempls/PianoSempls/GmPiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F192D3200DA00DD93A6 /* Gpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Gpiano.mp3; path = Sempls/PianoSempls/Gpiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F1A2D3200DA00DD93A6 /* Hbpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hbpiano.mp3; path = Sempls/PianoSempls/Hbpiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F1B2D3200DA00DD93A6 /* HmPiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = HmPiano.mp3; path = Sempls/PianoSempls/HmPiano.mp3; sourceTree = SOURCE_ROOT; };
+		9ADB4F1C2D3200DA00DD93A6 /* Hpiano.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Hpiano.mp3; path = Sempls/PianoSempls/Hpiano.mp3; sourceTree = SOURCE_ROOT; };
 		9AF65BAC2C2B02AA0011DD43 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -136,17 +172,6 @@
 				9A1A69F22C105C6D0071FFE8 /* FDmView.swift */,
 			);
 			path = GuitarViews;
-			sourceTree = "<group>";
-		};
-		9A1A69F62C1060820071FFE8 /* GuitarViewModels */ = {
-			isa = PBXGroup;
-			children = (
-				9A1A69F42C10603D0071FFE8 /* CAmGuitarViewModel.swift */,
-				9A1A69F72C1060BD0071FFE8 /* GEmGuitarViewModel.swift */,
-				9A1A69F92C1061080071FFE8 /* DHmGuitarViewModel.swift */,
-				9A1A69FB2C1061580071FFE8 /* FDmGuitarViewModel.swift */,
-			);
-			path = GuitarViewModels;
 			sourceTree = "<group>";
 		};
 		9A44DA192C0FC5FD0043084E = {
@@ -214,6 +239,21 @@
 				9A80F0932C31A838003A1A66 /* H.mp3 */,
 				9A80F0902C31A838003A1A66 /* Hb.mp3 */,
 				9A80F0952C31A838003A1A66 /* Hm.mp3 */,
+				9ADB4F0E2D3200DA00DD93A6 /* AmPiano.mp3 */,
+				9ADB4F0F2D3200DA00DD93A6 /* Apiano.mp3 */,
+				9ADB4F102D3200DA00DD93A6 /* Cpiano.mp3 */,
+				9ADB4F112D3200DA00DD93A6 /* DmPiano.mp3 */,
+				9ADB4F122D3200DA00DD93A6 /* Dpiano.mp3 */,
+				9ADB4F132D3200DA00DD93A6 /* EmPiano.mp3 */,
+				9ADB4F142D3200DA00DD93A6 /* Epiano.mp3 */,
+				9ADB4F152D3200DA00DD93A6 /* F#piano.mp3 */,
+				9ADB4F162D3200DA00DD93A6 /* Fm#Piano.mp3 */,
+				9ADB4F172D3200DA00DD93A6 /* Fpiano.mp3 */,
+				9ADB4F182D3200DA00DD93A6 /* GmPiano.mp3 */,
+				9ADB4F192D3200DA00DD93A6 /* Gpiano.mp3 */,
+				9ADB4F1A2D3200DA00DD93A6 /* Hbpiano.mp3 */,
+				9ADB4F1B2D3200DA00DD93A6 /* HmPiano.mp3 */,
+				9ADB4F1C2D3200DA00DD93A6 /* Hpiano.mp3 */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -222,10 +262,12 @@
 			isa = PBXGroup;
 			children = (
 				9A1A69ED2C105BF50071FFE8 /* GuitarViews */,
+				9A8177CF2D31F0240003E36D /* PianoView */,
 				9A44DA272C0FC5FD0043084E /* SelectInstrView.swift */,
 				9A44DA332C0FC8A30043084E /* FunnyDrumsView.swift */,
 				9A44DA392C0FC9220043084E /* BassView.swift */,
 				9A225F052C1A621A0015A065 /* DrumsTrueView.swift */,
+				9A50D6AE2D32827B0089E095 /* LaunchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -233,17 +275,29 @@
 		9A44DA362C0FC8D20043084E /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				9A1A69F62C1060820071FFE8 /* GuitarViewModels */,
-				9A44DA3D2C0FC9620043084E /* DrumsViewModel.swift */,
-				9A44DA3F2C0FC9910043084E /* BassViewModel.swift */,
+				9ABD815D2D31960C007C6BB0 /* DrumsViewModelNew.swift */,
+				9A8177C92D31DDE60003E36D /* ViewModelAll.swift */,
 			);
 			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A8177CF2D31F0240003E36D /* PianoView */ = {
+			isa = PBXGroup;
+			children = (
+				9A8177CD2D31F0120003E36D /* CAmPiano.swift */,
+				9A8177D02D31F0460003E36D /* GEmPianoVew.swift */,
+				9A8177D22D31F0570003E36D /* DHmPianoView.swift */,
+				9A8177D42D31F06A0003E36D /* FDmPianoView.swift */,
+				9A8177D62D31F0920003E36D /* SelectKeyPiano.swift */,
+			);
+			path = PianoView;
 			sourceTree = "<group>";
 		};
 		9AF65BAE2C2B02C50011DD43 /* Model */ = {
 			isa = PBXGroup;
 			children = (
 				9AF65BAC2C2B02AA0011DD43 /* Player.swift */,
+				9ABD815B2D319276007C6BB0 /* PlayerDrums.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -316,6 +370,21 @@
 				9A44DA2D2C0FC5FE0043084E /* Preview Assets.xcassets in Resources */,
 				9A80F09C2C31A838003A1A66 /* Am.mp3 in Resources */,
 				9A31F5E92C2D52E0008EC3ED /* H(bass).mp3 in Resources */,
+				9ADB4F1D2D3200DA00DD93A6 /* F#piano.mp3 in Resources */,
+				9ADB4F1E2D3200DA00DD93A6 /* AmPiano.mp3 in Resources */,
+				9ADB4F1F2D3200DA00DD93A6 /* Dpiano.mp3 in Resources */,
+				9ADB4F202D3200DA00DD93A6 /* Cpiano.mp3 in Resources */,
+				9ADB4F212D3200DA00DD93A6 /* DmPiano.mp3 in Resources */,
+				9ADB4F222D3200DA00DD93A6 /* EmPiano.mp3 in Resources */,
+				9ADB4F232D3200DA00DD93A6 /* Fpiano.mp3 in Resources */,
+				9ADB4F242D3200DA00DD93A6 /* HmPiano.mp3 in Resources */,
+				9ADB4F252D3200DA00DD93A6 /* Apiano.mp3 in Resources */,
+				9ADB4F262D3200DA00DD93A6 /* Fm#Piano.mp3 in Resources */,
+				9ADB4F272D3200DA00DD93A6 /* GmPiano.mp3 in Resources */,
+				9ADB4F282D3200DA00DD93A6 /* Epiano.mp3 in Resources */,
+				9ADB4F292D3200DA00DD93A6 /* Gpiano.mp3 in Resources */,
+				9ADB4F2A2D3200DA00DD93A6 /* Hpiano.mp3 in Resources */,
+				9ADB4F2B2D3200DA00DD93A6 /* Hbpiano.mp3 in Resources */,
 				9A31F5E82C2D52E0008EC3ED /* F(bass).mp3 in Resources */,
 				9A769AE72C2DC94C009D645F /* H-H(drums).mp3 in Resources */,
 				9A80F0982C31A838003A1A66 /* E.mp3 in Resources */,
@@ -351,21 +420,24 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A44DA3C2C0FC9370043084E /* CAmView.swift in Sources */,
+				9A50D6AF2D32827B0089E095 /* LaunchView.swift in Sources */,
 				9A1A69F12C105C5C0071FFE8 /* DHmView.swift in Sources */,
+				9A8177CA2D31DDE60003E36D /* ViewModelAll.swift in Sources */,
 				9A44DA282C0FC5FD0043084E /* SelectInstrView.swift in Sources */,
-				9A1A69FC2C1061580071FFE8 /* FDmGuitarViewModel.swift in Sources */,
 				9A225F062C1A621A0015A065 /* DrumsTrueView.swift in Sources */,
 				9A1A69EC2C1059490071FFE8 /* SelectKeyForGuitar.swift in Sources */,
 				9A1A69EF2C105C4A0071FFE8 /* GEmView.swift in Sources */,
 				9A1A69F32C105C6D0071FFE8 /* FDmView.swift in Sources */,
-				9A44DA402C0FC9910043084E /* BassViewModel.swift in Sources */,
-				9A1A69F52C10603D0071FFE8 /* CAmGuitarViewModel.swift in Sources */,
+				9A8177D52D31F06A0003E36D /* FDmPianoView.swift in Sources */,
+				9A8177D32D31F0570003E36D /* DHmPianoView.swift in Sources */,
 				9A44DA3A2C0FC9220043084E /* BassView.swift in Sources */,
+				9A8177D72D31F0920003E36D /* SelectKeyPiano.swift in Sources */,
 				9A44DA262C0FC5FD0043084E /* ForestBandApp.swift in Sources */,
-				9A1A69FA2C1061080071FFE8 /* DHmGuitarViewModel.swift in Sources */,
-				9A1A69F82C1060BD0071FFE8 /* GEmGuitarViewModel.swift in Sources */,
-				9A44DA3E2C0FC9620043084E /* DrumsViewModel.swift in Sources */,
+				9ABD815C2D319276007C6BB0 /* PlayerDrums.swift in Sources */,
+				9ABD815E2D31960C007C6BB0 /* DrumsViewModelNew.swift in Sources */,
+				9A8177CE2D31F0120003E36D /* CAmPiano.swift in Sources */,
 				9AF65BAD2C2B02AA0011DD43 /* Player.swift in Sources */,
+				9A8177D12D31F0460003E36D /* GEmPianoVew.swift in Sources */,
 				9A44DA342C0FC8A30043084E /* FunnyDrumsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -498,7 +570,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ForestBand/Preview Content\"";
 				DEVELOPMENT_TEAM = 795ZD82PL2;
 				ENABLE_PREVIEWS = YES;
@@ -507,16 +579,20 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = Mordor.ForestBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -526,7 +602,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ForestBand/Preview Content\"";
 				DEVELOPMENT_TEAM = 795ZD82PL2;
 				ENABLE_PREVIEWS = YES;
@@ -535,16 +611,20 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.2;
+				MARKETING_VERSION = 2;
 				PRODUCT_BUNDLE_IDENTIFIER = Mordor.ForestBand;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 1;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

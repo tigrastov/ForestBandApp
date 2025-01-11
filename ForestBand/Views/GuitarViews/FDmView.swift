@@ -4,7 +4,7 @@ import SwiftUI
 struct FDmView: View {
     @State private var isShowSelectView = false
     @State private var isShowset = false
-    @ObservedObject var viewModel = FDmGuitarViewModel()
+    @ObservedObject var viewModel = ViewModelAll()
     var body: some View {
         VStack(spacing: 3){
             
@@ -13,12 +13,12 @@ struct FDmView: View {
                 
                 Image("F(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play3()
+                        self.viewModel.play(name: "F")
                     }
                 
                 Image("Gm(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play4()
+                        self.viewModel.play(name: "Gm")
                         
                         
                     }
@@ -29,11 +29,11 @@ struct FDmView: View {
                 
                 Image("Dm(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play1()
+                        self.viewModel.play(name: "Dm")
                     }
                 Image("Am(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play5()
+                        self.viewModel.play(name: "Am")
                     }
                 
             }
@@ -41,11 +41,11 @@ struct FDmView: View {
                 
                 Image("Hb(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play6()
+                        self.viewModel.play(name: "Hb")
                     }
                 Image("C(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play7()
+                        self.viewModel.play(name: "C")
                     }
                 
             }
@@ -53,11 +53,11 @@ struct FDmView: View {
                 
                 Image("A(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play2()
+                        self.viewModel.play(name: "A")
                     }
                 Image("G(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play8()
+                        self.viewModel.play(name: "G")
                     }
                 
                 
@@ -118,3 +118,6 @@ struct FDmView: View {
 #Preview {
     FDmView()
 }
+
+
+

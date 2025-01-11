@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct CAmView: View {
+struct CAmPiano: View {
     @State private var isShowSelectView = false
     @State private var isShowset = false
     
@@ -17,12 +17,12 @@ struct CAmView: View {
                 
                 Image("C")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "C")
+                        viewModel.play(name: "Cpiano")
                     }
                 
                 Image("Dm")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Dm")
+                       viewModel.play(name: "DmPiano")
                         
                         
                     }
@@ -32,11 +32,11 @@ struct CAmView: View {
                 
                 Image("Am")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Am")
+                        viewModel.play(name: "AmPiano")
                     }
                 Image("Em")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Em")
+                        viewModel.play(name: "EmPiano")
                     }
                 
             }
@@ -44,11 +44,11 @@ struct CAmView: View {
                 
                 Image("F")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "F")
+                        viewModel.play(name: "Fpiano")
                     }
                 Image("G")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "G")
+                        viewModel.play(name: "Gpiano")
                     }
                 
             }
@@ -56,11 +56,11 @@ struct CAmView: View {
                 
                 Image("E")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "E")
+                        viewModel.play(name: "Epiano")
                     }
                 Image("D")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "D")
+                        viewModel.play(name: "Dpiano")
                     }
             }
         }
@@ -78,13 +78,13 @@ struct CAmView: View {
                     isShowSelectView.toggle()
                 } label: {
                     VStack{
-                        Text("Guitar accords").foregroundStyle(Color.white)
+                        Text("Piano accords").foregroundStyle(Color.white)
                             
                         Text("C - Am").foregroundStyle(Color.white).font(.largeTitle)
                     }
                 }
                 .fullScreenCover(isPresented: $isShowSelectView){
-                    SelectKeyForGuitar()
+                    SelectKeyPiano()
                 }
               
                 
@@ -111,6 +111,7 @@ struct CAmView: View {
     }
 }
 #Preview {
-    CAmView()
+    CAmPiano()
 }
+
 

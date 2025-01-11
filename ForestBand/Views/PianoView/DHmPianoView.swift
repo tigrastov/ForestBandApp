@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct GEmView: View {
+struct DHmPianoView: View {
     @State private var isShowSelectView = false
     @State private var isShowset = false
     @ObservedObject var viewModel = ViewModelAll()
@@ -12,14 +12,14 @@ struct GEmView: View {
             HStack(spacing: 70){
                 
                 
-                Image("G(G-Em)")
+                Image("D(D-Hm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "G")
+                        self.viewModel.play(name: "Dpiano")
                     }
                 
-                Image("Am(G-Em)")
+                Image("Em(D-Hm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "Am")
+                        self.viewModel.play(name: "EmPiano")
                         
                         
                     }
@@ -28,37 +28,37 @@ struct GEmView: View {
             
             HStack(spacing: 70){
                 
-                Image("Em(G-Em)")
+                Image("Hm(D-Hm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "Em")
+                        self.viewModel.play(name: "HmPiano")
                     }
-                Image("D(G-Em)")
+                Image("Fm#(D-Hm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "D")
-                    }
-                
-            }
-            HStack(spacing: 70){
-                
-                Image("Hm(G-Em)")
-                    .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "Hm")
-                    }
-                Image("C(G-Em)")
-                    .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "C")
+                        self.viewModel.play(name: "Fm#Piano")
                     }
                 
             }
             HStack(spacing: 70){
                 
-                Image("H(G-Em)")
+                Image("G(D-Hm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "H")
+                        self.viewModel.play(name: "Gpiano")
                     }
-                Image("A(G-Em)")
+                Image("A(D-Hm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        self.viewModel.play(name: "A")
+                        self.viewModel.play(name: "Apiano")
+                    }
+                
+            }
+            HStack(spacing: 70){
+                
+                Image("F#(D-Hm)")
+                    .onLongPressGesture(minimumDuration: 0) {
+                        self.viewModel.play(name: "F#piano")
+                    }
+                Image("E(D-Hm)")
+                    .onLongPressGesture(minimumDuration: 0) {
+                        self.viewModel.play(name: "Epiano")
                     }
                 
                 
@@ -72,23 +72,34 @@ struct GEmView: View {
         
         .offset(y: -40)
         .frame(width: screen.width, height: screen.height)
-            .background(Image("G - EmBg").resizable().scaledToFill().ignoresSafeArea())
-           .overlay(alignment: .bottom) {
+        .background(Image("D - HmBg").resizable().scaledToFill().ignoresSafeArea())
+        .overlay(alignment: .bottom) {
             HStack{
+                /*
+                 Button {
+                 print("key")
+                 isShowSelectView.toggle()
+                 } label: {
+                 Image("GuitLitle")
+                 }
+                 .fullScreenCover(isPresented: $isShowSelectView){
+                 SelectKeyForGuitar()
+                 }
+                 */
                 
                 Button {
                     isShowSelectView.toggle()
                 } label: {
                     VStack{
-                        Text("Guitar accords").foregroundStyle(Color.white)
-                        Text("G - Em").foregroundStyle(Color.white).font(.largeTitle)
+                        Text("Piano accords").foregroundStyle(Color.white)
+                        Text("D - Hm").foregroundStyle(Color.white).font(.largeTitle)
                     }
                 }
-
                 .fullScreenCover(isPresented: $isShowSelectView){
-                    SelectKeyForGuitar()
+                    SelectKeyPiano()
                 }
-               
+                
+                
                 
                 Button(action: {
                     isShowset.toggle()
@@ -98,11 +109,11 @@ struct GEmView: View {
                 .fullScreenCover(isPresented: $isShowset, content: {
                     SelectInstrView()
                 }).offset(x: 55)
-            }.frame(width: screen.width * 0.95, height: screen.height / 7).background(Color("TabE")).shadow(radius: 5).cornerRadius(60)
-                   .padding()
-                   .onTapGesture {
-                       self.viewModel.stop()
-                   }
+            }.frame(width: screen.width * 0.95, height: screen.height / 7).background(Color("E(D-Hm)")).shadow(radius: 5).cornerRadius(60)
+                .padding()
+                .onTapGesture {
+                    self.viewModel.stop()
+                }
         }
         
         
@@ -110,8 +121,9 @@ struct GEmView: View {
 }
 
 #Preview {
-    GEmView()
+    DHmPianoView()
 }
+
 
 
 

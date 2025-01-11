@@ -2,7 +2,7 @@
 
 import SwiftUI
 
-struct SelectKeyForGuitar: View {
+struct SelectKeyPiano: View {
     @State private var cAmViewShow = false
     @State private var dHmViewShow = false
     @State private var gEmViewShow = false
@@ -16,7 +16,7 @@ struct SelectKeyForGuitar: View {
             
             VStack {
                 Spacer()
-                Text("Key Select for Guitar").foregroundStyle(.white)
+                Text("Key Select for Piano").foregroundStyle(.white)
                 Spacer()
                 Button {
                     print("C-Am")
@@ -25,7 +25,7 @@ struct SelectKeyForGuitar: View {
                     Image("C - Am")
                 }
                 .fullScreenCover(isPresented: $cAmViewShow){
-                    CAmView()
+                    CAmPiano()
                 }
                 
                 Button {
@@ -35,7 +35,7 @@ struct SelectKeyForGuitar: View {
                     Image("G - Em")
                 }
                 .fullScreenCover(isPresented: $gEmViewShow){
-                    GEmView()
+                    GEmPianoVew()
                 }
                 Button {
                     print("D-Hm")
@@ -44,7 +44,7 @@ struct SelectKeyForGuitar: View {
                     Image("D - Hm")
                 }
                 .fullScreenCover(isPresented: $dHmViewShow){
-                   DHmView()
+                    DHmPianoView()
                 }
                 Button {
                     print("F-Dm")
@@ -53,7 +53,7 @@ struct SelectKeyForGuitar: View {
                     Image("F -Dm")
                 }
                 .fullScreenCover(isPresented: $fDmViewShow){
-                    FDmView()
+                    FDmPianoView()
                 }
                 Button {
                     print("F-Dm")
@@ -78,5 +78,6 @@ struct SelectKeyForGuitar: View {
 }
 
 #Preview {
-    SelectKeyForGuitar()
+    SelectKeyPiano()
 }
+

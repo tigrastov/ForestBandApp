@@ -1,105 +1,110 @@
 
-
 import SwiftUI
 
-struct CAmView: View {
+struct FDmPianoView: View {
     @State private var isShowSelectView = false
     @State private var isShowset = false
-    
     @ObservedObject var viewModel = ViewModelAll()
     var body: some View {
         VStack(spacing: 3){
             
-            
-            
             HStack(spacing: 70){
                 
                 
-                Image("C")
+                Image("F(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "C")
+                        self.viewModel.play(name: "Fpiano")
                     }
                 
-                Image("Dm")
+                Image("Gm(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Dm")
+                        self.viewModel.play(name: "GmPiano")
                         
                         
                     }
             }
             
+            
             HStack(spacing: 70){
                 
-                Image("Am")
+                Image("Dm(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Am")
+                        self.viewModel.play(name: "DmPiano")
                     }
-                Image("Em")
+                Image("Am(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "Em")
+                        self.viewModel.play(name: "AmPiano")
                     }
                 
             }
             HStack(spacing: 70){
                 
-                Image("F")
+                Image("Hb(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "F")
+                        self.viewModel.play(name: "Hbpiano")
                     }
-                Image("G")
+                Image("C(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "G")
+                        self.viewModel.play(name: "Cpiano")
                     }
                 
             }
             HStack(spacing: 70){
                 
-                Image("E")
+                Image("A(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "E")
+                        self.viewModel.play(name: "Apiano")
                     }
-                Image("D")
+                Image("G(F-Dm)")
                     .onLongPressGesture(minimumDuration: 0) {
-                        viewModel.play(name: "D")
+                        self.viewModel.play(name: "Gpiano")
                     }
+                
+                
             }
+            
+            
         }
         
         .offset(y: -40)
-        
         .frame(width: screen.width, height: screen.height)
-            .background(Image("C - AmBg").resizable().scaledToFill().ignoresSafeArea())
-        
-        
+            .background(Image("F - DmBg").resizable().scaledToFill().ignoresSafeArea())
            .overlay(alignment: .bottom) {
             HStack{
+                
+                /*
+                Button {
+                    print("key")
+                    isShowSelectView.toggle()
+                } label: {
+                    Image("GuitLitle")
+                }
+                
+                */
                 
                 Button {
                     isShowSelectView.toggle()
                 } label: {
                     VStack{
-                        Text("Guitar accords").foregroundStyle(Color.white)
-                            
-                        Text("C - Am").foregroundStyle(Color.white).font(.largeTitle)
+                        Text("Piano accords").foregroundStyle(Color.white)
+                        Text("F - Dm").foregroundStyle(Color.white).font(.largeTitle)
                     }
                 }
                 .fullScreenCover(isPresented: $isShowSelectView){
-                    SelectKeyForGuitar()
+                    SelectKeyPiano()
                 }
-              
                 
-
+                
+                
                 Button(action: {
                     isShowset.toggle()
                 }, label: {
                     Image("settings")
                 })
-                .fullScreenCover(isPresented: $isShowset) {
+                .fullScreenCover(isPresented: $isShowset, content: {
                     SelectInstrView()
-                }.offset(x: 55)
-                    
-                
-            }.frame(width: screen.width * 0.95, height: screen.height / 7).background(Color("tabC-Am")).shadow(radius: 5).cornerRadius(60)
+                }).offset(x: 55)
+            }.frame(width: screen.width * 0.95, height: screen.height / 7).background(Color.black).shadow(radius: 5).cornerRadius(60)
                    .padding()
                    .onTapGesture {
                        self.viewModel.stop()
@@ -107,10 +112,13 @@ struct CAmView: View {
         }
         
         
-        
     }
 }
+
 #Preview {
-    CAmView()
+    FDmPianoView()
 }
+
+
+
 

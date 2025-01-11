@@ -5,10 +5,21 @@ let screen = UIScreen.main.bounds
 
 @main
 struct ForestBandApp: App {
+    
+    @State private var isLoading = true
   
     var body: some Scene {
         WindowGroup {
-            SelectInstrView()
+            
+            if isLoading {
+                LaunchView(isLoading: $isLoading)
+            }else {
+                SelectInstrView()
+            }
+            
+            
+            
+            
         }
     }
 }
